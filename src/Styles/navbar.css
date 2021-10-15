@@ -1,0 +1,47 @@
+* {
+    border: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    background: transparent;
+}
+
+.container .orgName {
+    display: flex;
+}
+
+#redBold {
+    color: rgb(255, 0, 0);
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+#swot {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 40%;
+}
+
+.menu a {
+    outline: none;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: georgia, serif;
+}

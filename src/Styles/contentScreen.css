@@ -1,0 +1,47 @@
+* {
+    border: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(../bgimg1.png) no-repeat right;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    height: 80vh;
+}
+
+.welcome > h2 {
+    color: red;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 4rem;
+}
+
+.welcome h3 {
+    margin: 4rem 0;
+}
+
+#buyNowBtn {
+    background-color: orange;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.bg1 {
+    align-self: flex-end;
+}
+
+
+
